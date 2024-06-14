@@ -1,4 +1,4 @@
-# CSV Data Analysis Web App
+# Django Data Analysis 
 
 ## Overview
 This web application allows users to upload CSV files, perform data analysis using pandas and numpy, and visualize the results on the web interface.

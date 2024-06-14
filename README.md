@@ -4,7 +4,7 @@
 This web application allows users to upload CSV files, perform data analysis using pandas and numpy, and visualize the results on the web interface.
 
 ## Setup Instructions
-1. Clone the repository:
+####1. Clone the repository:
    ```bash
    git clone https://github.com/Shirodkar-Shubham-GitHub/VE3_Django_Data_Analysis.git
 
@@ -13,21 +13,26 @@ This web application allows users to upload CSV files, perform data analysis usi
    cd VE3 Task
 
 4. Create a virtual environment:
+   ```bash
    python -m venv venv
    
-5. Activate the virtual environment:
+6. Activate the virtual environment:
+   ```bash
    venv\Scripts\activate
 
-6. Install dependencies:
+8. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 
-7. Run migrations:
-   python manage.py migrate
+10. Run migrations:
+    ```bash
+    python manage.py migrate
 
-8. Start the development server:
-   python manage.py runserver
+12. Start the development server:
+    ```bash
+    python manage.py runserver
 
-9. Open your web browser and navigate to http://localhost:8000 to access the web application.
+14. Open your web browser and navigate to http://localhost:8000 to access the web application.
 
 ## Project Structure
 

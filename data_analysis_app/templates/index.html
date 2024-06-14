@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload CSV File</title>
+    <style>
+        .card {
+        margin: 0 auto;
+        float: none;
+}
+    </style>
+</head>
+<body>
+
+    <div class="card" style="width: 20rem;">
+        <div class="card-body">
+            <h2>Upload CSV File</h2>
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit">Upload</button>
+            </form>
+        </div>
+      </div>
+</body>
+</html>

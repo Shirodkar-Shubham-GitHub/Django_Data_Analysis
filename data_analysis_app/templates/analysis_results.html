@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSV Analysis Results</title>
+</head>
+<body>
+    <a href="">Upload Other File</a>
+    <h3>First Few Rows</h3>
+    <pre style="display: inline-block; border:2px solid Black;">{{ first_few_rows }}</pre>
+    
+    <h3>Summary Statistics</h3>
+    <pre style="display: inline-block; border:2px solid Black;">Mean: {{ mean }}</pre><br>
+    <pre style="display: inline-block; border:2px solid Black;">Median: {{ median }}</pre><br>
+    <pre style="display: inline-block; border:2px solid Black;">Standard Deviation: {{ std }}</pre>
+    
+    <h3>Missing Values</h3>
+    <pre style="display: inline-block; border:2px solid Black;">{{ missing_values }}</pre>
+    
+    <h3>Histogram for numerical columns</h3>
+    {% for column, plot_image in plot_data.items %}
+        <h3>{{ column }}</h3>
+        <img src="data:image/png;base64,{{ plot_image }}" alt="{{ column }} histogram">
+    {% endfor %}
+</body>
+</html>

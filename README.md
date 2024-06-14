@@ -41,13 +41,13 @@ This web application allows users to upload CSV files, perform data analysis usi
 
 ## Features
 
-##### File Upload: ####### Users can upload CSV files via a form.
-##### Data Processing: ####### Uploaded CSV files are processed using pandas to perform basic data analysis tasks such as displaying the first few rows of the data, calculating summary statistics (mean, median, standard deviation), and handling missing values.
+##### File Upload: Users can upload CSV files via a form.
+##### Data Processing: Uploaded CSV files are processed using pandas to perform basic data analysis tasks such as displaying the first few rows of the data, calculating summary statistics (mean, median, standard deviation), and handling missing values.
 ##### Data Visualization: Basic plots (e.g., histograms) are generated using matplotlib and displayed on the web page.
 ##### User Interface: Simple and user-friendly interface created using Django templates to display data analysis results and visualizations in a clear and organized manner.
 
 ## Technologies Used
 
-Django
-pandas
-matplotlib
+#### Django
+#### pandas
+#### matplotlib

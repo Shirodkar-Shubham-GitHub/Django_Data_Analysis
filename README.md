@@ -35,16 +35,16 @@ This web application allows users to upload CSV files, perform data analysis usi
 
 ## Project Structure
 
-django_data_analysis: Django project configuration.
-data_analysis_app: Django app containing the main functionality.
-templates: HTML templates for rendering the user interface.
+##### django_data_analysis: Django project configuration.
+##### data_analysis_app: Django app containing the main functionality.
+##### templates: HTML templates for rendering the user interface.
 
 ## Features
 
-##### File Upload:####### Users can upload CSV files via a form.
-##### Data Processing:####### Uploaded CSV files are processed using pandas to perform basic data analysis tasks such as displaying the first few rows of the data, calculating summary statistics (mean, median, standard deviation), and handling missing values.
-##### Data Visualization:####### Basic plots (e.g., histograms) are generated using matplotlib and displayed on the web page.
-##### User Interface:####### Simple and user-friendly interface created using Django templates to display data analysis results and visualizations in a clear and organized manner.
+##### File Upload: ####### Users can upload CSV files via a form.
+##### Data Processing: ####### Uploaded CSV files are processed using pandas to perform basic data analysis tasks such as displaying the first few rows of the data, calculating summary statistics (mean, median, standard deviation), and handling missing values.
+##### Data Visualization: Basic plots (e.g., histograms) are generated using matplotlib and displayed on the web page.
+##### User Interface: Simple and user-friendly interface created using Django templates to display data analysis results and visualizations in a clear and organized manner.
 
 ## Technologies Used
 

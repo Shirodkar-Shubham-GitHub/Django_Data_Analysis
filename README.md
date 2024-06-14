@@ -9,24 +9,25 @@ This web application allows users to upload CSV files, perform data analysis usi
    git clone https://github.com/Shirodkar-Shubham-GitHub/VE3_Django_Data_Analysis.git
 
 2. Navigate to the project directory:
+   ```bash
    cd VE3 Task
 
-3. Create a virtual environment:
+4. Create a virtual environment:
    python -m venv venv
    
-4. Activate the virtual environment:
+5. Activate the virtual environment:
    venv\Scripts\activate
 
-5. Install dependencies:
+6. Install dependencies:
    pip install -r requirements.txt
 
-6. Run migrations:
+7. Run migrations:
    python manage.py migrate
 
-7. Start the development server:
+8. Start the development server:
    python manage.py runserver
 
-8. Open your web browser and navigate to http://localhost:8000 to access the web application.
+9. Open your web browser and navigate to http://localhost:8000 to access the web application.
 
 ## Project Structure
 

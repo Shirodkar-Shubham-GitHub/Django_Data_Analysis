@@ -1,1 +1,1 @@
-# VE3_Django_Data_Analysis
+# VE3_Django_Data_Analysis_Task

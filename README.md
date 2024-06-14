@@ -4,7 +4,7 @@
 This web application allows users to upload CSV files, perform data analysis using pandas and numpy, and visualize the results on the web interface.
 
 ## Setup Instructions
-####1. Clone the repository:
+#### 1. Clone the repository:
    ```bash
    git clone https://github.com/Shirodkar-Shubham-GitHub/VE3_Django_Data_Analysis.git
 

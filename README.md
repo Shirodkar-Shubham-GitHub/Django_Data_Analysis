@@ -51,3 +51,7 @@ This web application allows users to upload CSV files, perform data analysis usi
 #### Django
 #### pandas
 #### matplotlib
+
+## Deployment
+   ```bash
+   https://ve3-django-data-analysis.onrender.com/

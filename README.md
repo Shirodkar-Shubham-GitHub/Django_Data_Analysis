@@ -6,7 +6,7 @@ This web application allows users to upload CSV files, perform data analysis usi
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Shirodkar-Shubham-GitHub/VE3_Django_Data_Analysis.git
+   git clone https://github.com/Shirodkar-Shubham-GitHub/Django_Data_Analysis.git
     
 2. Navigate to the project directory:
    ```bash

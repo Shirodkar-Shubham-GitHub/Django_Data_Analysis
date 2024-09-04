@@ -10,7 +10,7 @@ This web application allows users to upload CSV files, perform data analysis usi
     
 2. Navigate to the project directory:
    ```bash
-   cd VE3 Task
+   cd DDA
 3. Create a virtual environment:
    ```bash
    python -m venv venv

@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: django_data_analysis
-    buildCommand: "./build.sh"
-    env: python
-    startCommand: "gunicorn django_data_analysis.wsgi:application"
